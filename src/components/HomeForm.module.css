@@ -1,0 +1,18 @@
+.btnForm{
+    width: 40%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(198, 196, 196);
+    font-weight: bolder;
+    font-size: medium;
+    text-transform: uppercase; 
+    cursor: pointer; 
+    }
+
+
+    @media screen and (max-width: 576px) {
+        .btnForm{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,208 @@
+.container{
+display: flex;
+background: ghostwhite;
+padding: 40px 10px;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 1200px;
+margin:  0 auto;
+}
+
+form{
+width: 80%;
+background: rgb(225, 222, 222);
+border-radius: 20px;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.grid{
+display: flex;
+width: 50%;
+/* background: orange; */
+padding: 10px 10px;
+}
+
+.inputBox{
+/* background-color: violet; */
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+label{
+margin: 0 0;
+margin-bottom: 10px;
+text-align: start;
+}
+
+input{
+padding: 5px 5px;
+border-radius: 5px;
+border: 0; 
+border: 2px solid rgb(255, 255, 255);      
+}
+
+input.active{
+border: 2px solid red;    
+}
+
+
+select{
+padding: 5px 5px;
+border-radius: 5px;
+border: 0;  
+border: 2px solid rgb(255, 255, 255);     
+}
+
+select:active, input:active{
+border: 2px solid red;   
+}
+
+select.active{
+border: 2px solid red;       
+}
+
+.radio{
+display: flex;
+width: 100%;
+margin-top: 5px; 
+}
+
+.boxRadio{
+display: flex;
+align-content: center;    
+}
+
+.btnForm{
+width: 100%;
+padding: 10px 5px;
+border: none;
+border-radius: 5px;
+background-color: rgb(198, 196, 196);
+font-weight: bolder;
+font-size: medium;
+text-transform: uppercase; 
+cursor: pointer; 
+}
+
+.btnForm:hover{
+background-color: rgb(185, 185, 185);
+}
+
+
+.btnForm1{
+    width: 20%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(198, 196, 196);
+    font-weight: bolder;
+    font-size: medium;
+    text-transform: uppercase; 
+    cursor: pointer; 
+    }
+    
+    .btnForm1:hover{
+    background-color: rgb(185, 185, 185);
+    }
+
+.btnDisabled{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(198, 196, 196);
+    font-weight: bolder;
+    font-size: medium;
+    text-transform: uppercase; 
+    cursor: pointer; 
+background-color: rgb(211, 210, 210);
+}
+
+
+.classCitta{
+display: flex;
+width: 30%;
+padding: 10px 10px;  
+}
+
+.classProvincia{
+display: flex;
+width: 20%;
+padding: 10px 10px;  
+}
+
+.BoxDiv{
+width:fit-content;
+display: flex;
+flex-direction: column;
+padding: 10px 10px;
+background-color: rgb(217, 216, 216);
+border-radius: 20px;
+}
+
+.divBox{
+display: flex;
+justify-content:center;
+margin-bottom: 3px;
+flex-wrap: wrap; 
+}
+
+
+.resizeRadio{
+display: flex;
+width: 50%;
+padding: 10px 10px;    
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+.container{
+max-width: 100%;
+}
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+.grid{
+ width: 100%;
+} 
+
+.classCitta, .classProvincia{
+width: 50%;
+}
+
+.resizeRadio{
+ width: 100%;   
+}
+
+
+.btnForm1{
+    width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .classCitta, .classProvincia{
+        width: 100%;
+        }
+        form{
+            width: 100%;  
+        }
+
+        .btnForm1{
+            width: 50%;
+            }
+}

@@ -1,0 +1,58 @@
+.containerData{
+display: flex;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto; 
+justify-content: center;  
+}
+
+.CardData{
+display: flex;
+flex-direction: column;
+padding: 10px 10px;
+/* background-color: red; */
+width: 40%;    
+}
+
+.CardBox{
+background: rgb(225, 222, 222);
+padding: 10px 10px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+align-items: center;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+.containerData{
+max-width: 100%;
+} 
+
+.CardData{
+ width: 50%;    
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .CardData{
+        width: 100%;    
+       }
+}
+
+@media screen and (max-width: 576px) {
+
+}

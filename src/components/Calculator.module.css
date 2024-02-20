@@ -1,0 +1,115 @@
+.container{
+display: flex;
+flex-direction: column;
+background: ghostwhite; 
+align-items: center; 
+max-width: 1200px;
+margin:  0 auto;
+}
+
+.containerCalculator{
+width: 30%;
+display: flex;
+padding: 10px 10px;
+}
+
+.containerTasti{
+    display: flex;
+    background-color: rgb(131, 124, 199); 
+    padding: 10px 10px;
+    flex-direction: column;
+    border-radius: 10px 
+    }
+
+.container ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+}
+
+.container li{
+   width: 20%;
+   background: white;
+   padding: 10px;
+   margin: 0 5px;
+   margin-bottom: 10px;
+border-radius: 5px;
+    }
+
+
+    .totalUgual{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;   
+    }
+
+    .totalUgual li{
+        width: 20%;
+        background: white;
+        padding: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+     border-radius: 5px;   
+    }
+
+    .result{
+      background: white;
+      width: 100%;
+      padding: 10px 7px;
+      text-align: end; 
+      font-weight: bold;
+      font-size: 120%;
+      margin-bottom: 10px;
+      box-shadow: 0px 3px 18px -1px rgba(0,0,0,0.25)
+    }
+
+    h2{
+    margin: 10px 10px; 
+      font-size: 28px;
+    }
+
+    label{
+    margin-top: 10px;
+  font-size: 20px;
+    }
+
+
+
+    /* MEDIA QUERY */
+
+@media screen and (max-width: 1400px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    background: ghostwhite; 
+    align-items: center; 
+    max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .containerCalculator{
+    width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .containerCalculator{
+    width: 80%;
+    }
+
+}
